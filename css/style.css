@@ -11,7 +11,7 @@ body {
 }
 
 .center {
-	max-width: 1200px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -28,27 +28,31 @@ body {
 	padding: 0;
 	list-style: none;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around; 
+}
+
+.customers-menu p {
+	margin: 0;
 }
 
 .logo-container {
 	margin: 0;
+	width: 220px;
+	position: relative;
 }
 
 .logo {
 	text-decoration: none;
 	font-size: 24px;
 	line-height: 24px;
-	font-family: Cuprum;
+	font-family: "Cuprum", sans-serif;
 	font-weight: 400;
 	text-transform: uppercase;
 	display: block;
 	background-color: #ee3643;
 	color: white;
-	margin-right: 17px;
-	padding: 12px 55px 13px 55px; 
+	padding: 10px 55px 8px 55px; 
 	border-bottom: 5px solid #b52933;
+	position: absolute;
 }
 
 
@@ -63,10 +67,34 @@ body {
 	display: flex;
 }
 
-.loup-icon {
-	align-self: 
+.search {
+	box-sizing: border-box;
+	width: 270px;
+	padding-left: 17px;
+	padding-top: 10px;
+	display: flex;
 }
 
-.customers-menu p {
-	margin: 0;
+.loup-icon {
+	margin-right: 17px;
 }
+
+.bookmark {
+	width: 157px;
+}
+
+.basket {
+	width: 149px;
+}
+
+.button-buy {
+	display: block;
+	background-color: #63a63d;
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
