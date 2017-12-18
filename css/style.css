@@ -1,0 +1,72 @@
+html,
+body {
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+	font-family: "Cuprum", "PT sans", "Arial", sans serif;
+	background-color: white;
+	color: #f5f5f6; 		
+}
+
+.center {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header-top {
+	box-sizing: border-box;
+	width: 100%;
+	background-color: #293449;
+	padding: 0 130px;
+	display: flex;
+}
+
+.customers-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+
+.logo-container {
+	margin: 0;
+}
+
+.logo {
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: Cuprum;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	background-color: #ee3643;
+	color: white;
+	margin-right: 17px;
+	padding: 12px 55px 13px 55px; 
+	border-bottom: 5px solid #b52933;
+}
+
+
+.bookmark-link,
+.basket-link {
+	display: flex;
+	text-decoration: none;
+	color: white;
+}
+
+.search-form {
+	display: flex;
+}
+
+.loup-icon {
+	align-self: 
+}
+
+.customers-menu p {
+	margin: 0;
+}
