@@ -41,9 +41,6 @@ body {
 	display: flex;
 }
 
-.customers-menu p {
-	margin: 0;
-}
 
 .logo-container {
 	margin: 0;
@@ -73,31 +70,36 @@ body {
 	align-items: center;
 	text-decoration: none;
 	color: white;
+	font-size: 17px;
 }
 
 .search {
+	box-sizing: border-box;
 	width: 270px;
 	display: flex;
+	padding-left: 17px;
 }
 
-.search-wrapper {
+.search-form {
 	display: flex;
 	align-items: center;
 }
 
 .loup-icon {
-	margin-left: 17px;
-	margin-right: 17px;
+	margin-right: 15px;
 }
 
 .search-form-input-wrapper {
 	margin: 0;
+	position: relative;
+	display: flex;
+  align-items: center;
 }
 
 
 .search-form-input {
 	border: none;
-	background-color: inherit;
+	background-color: #293449;
 }
 
 
@@ -105,15 +107,91 @@ body {
 	background-color: white;
 }
 
+.search-form-label-text {
+	position: absolute;
+	top: 0;
+	left: 32px;
+	font-size: 17px;
+}
+
+
 
 .bookmark {
+	box-sizing: border-box;
 	width: 157px;
 	display: flex;
+	padding-left: 17px;
+}
+
+.bookmark-icon {
+	margin-right: 14px;
+}
+
+.bookmark-text {
+	margin: 0;
+	margin-right: 4px;
+}
+
+.bookmark-counter {
+	margin: 0;
 }
 
 .basket {
-	width: 149px;
+	box-sizing: border-box;
+	width: 144px;
+	display: flex;
+	padding-left: 11px;
 }
+
+.basket-icon {
+	margin-right: 17px;
+}
+
+.basket-text {
+	margin: 0;
+	margin-right: 4px;
+}
+
+.basket-counter {
+	margin: 0;
+}
+
+/*.search-form-input::-webkit-input-placeholder {
+	font-family: "Cuprum", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: white;
+}
+
+.search-form-input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.search-form-input::-moz-placeholder {
+	font-family: "Cuprum", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: white;
+}
+
+.search-form-input:focus::-moz-placeholder {
+	color: transparent;
+}
+
+.search-form-input:-ms-input-placeholder {
+	font-family: "Cuprum", sans-serif;
+	font-weight: 400;
+	font-size: 17px;
+	color: white;
+}
+
+.search-form-input:focus:-ms-input-placeholder {
+	color: transparent;
+}
+*/
+      
+
+
 
 .button-buy {
 	display: block;
@@ -121,8 +199,9 @@ body {
 	color: white;
 	text-decoration: none;
 	padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 21px;
   padding-bottom: 12px;
   padding-top: 12px;
+  font-size: 17px;
 }
 
