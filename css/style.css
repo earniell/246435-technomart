@@ -10,11 +10,6 @@ body {
 	color: #f5f5f6; 		
 }
 
-.center {
-	width: 1200px;
-	margin: 0 auto;
-}
-
 .visually-hidden { 
   position: absolute; 
   margin: -1px; 
@@ -26,12 +21,33 @@ body {
   clip: rect(0 0 0 0); 
 }
 
+.main-header {
+
+}
+
 .header-top {
-	box-sizing: border-box;
 	width: 100%;
 	background-color: #293449;
-	padding: 0 130px;
+}
+
+.center {
+	width: 940px;
+	margin: 0 auto;
 	display: flex;
+}
+
+.logo {
+	margin: 0;
+	padding: 10px 55px 8px 55px;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: "Cuprum", sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	background-color: #ee3643;
+	color: white;
+	box-shadow: 0 4px 0 0 #9c2b34;
 }
 
 .customers-menu {
@@ -42,27 +58,6 @@ body {
 }
 
 
-.logo-container {
-	margin: 0;
-	padding: 0;
-	width: 220px;
-	position: relative;
-}
-
-.logo {
-	text-decoration: none;
-	font-size: 24px;
-	line-height: 24px;
-	font-family: "Cuprum", sans-serif;
-	font-weight: 400;
-	text-transform: uppercase;
-	display: block;
-	background-color: #ee3643;
-	color: white;
-	padding: 10px 55px 8px 55px; 
-	border-bottom: 5px solid #b52933;
-	position: absolute;
-}
 
 
 .bookmark-link,
@@ -105,13 +100,15 @@ body {
 	width: 270px;
   height: 43px;
   padding-left: 45px;
+  outline: none;
 }
 
 .search-form-label {
 	display: flex;
 	position: absolute;
 	top: 11px;
-	left: 17px;
+	left: 48px;
+	font-size: 17px;
 }
 
 .search-form-label-text {

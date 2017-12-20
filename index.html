@@ -3,30 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="format-detection" content="telephone=no">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic|PT+Sans:400,400i,700,700i&amp;subset=cyrillic">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic">
 		<title>HTML Academy: Техномарт</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
 	</head>
 	<body>
-		<div class="center">
 		<header class="main-header">
 			<section class="header-top">
-				<h1 class="logo-container">
-					<a class="logo" href="index.html">Техномарт</a>
-				</h1>	
+				<div class="center">
+				<h1 class="logo">Техномарт</h1>
+				<form class="search-form" action="search-on-site.php" method="get">
+					<p class="search-form-input-wrapper">
+						<input class="search-form-input" type="search" id="search" name="search" required>
+						<label class="search-form-label" for="search">Поиск:</label>
+					</p>	
+				</form>
 				<ul class="customers-menu">
-					<li class="search">
-						<form class="search-form" action="search-on-site.php" method="get">
-							<p class="search-form-input-wrapper">
-								<input class="search-form-input" type="search" id="search" name="search" required>
-								<svg class="loup-icon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="white" opacity="0.3">
-									<path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
-									</svg>
-								<label class="search-form-label" for="search">Поиск:</label>
-							</p>	
-						</form>
-						
-					</li>
 					<li class="bookmark">
 						<a class="bookmark-link" href="#">
 							<svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="16">
@@ -55,9 +49,10 @@
 						<a class="button-buy" href="#">Оформить заказ</a>
 					</li>
 			</ul>
+		</div>
 			</section>			
 		</header>
 
-	</div>
+	
 	</body>
 </html>
