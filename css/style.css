@@ -136,9 +136,6 @@ body {
 }
 
 .search-form-label-text {
-	/*position: absolute;
-	top: 0;
-	left: 32px;*/
 	font-size: 17px;
 }
 
@@ -371,21 +368,21 @@ body {
 
 
 /* TOP-MENU */
- 
- .header-main-menu {
- 	display: flex;
- 	margin-bottom: 60px;
- }
- 
- .main-menu {
- 	display: flex;
- 	flex-wrap: wrap;
- 	list-style: none;
- }
- 
- .menu-item a {
- 	display: block;
- 	background-color: #293449;
- 	color: white;
- 	text-decoration: none;
+
+.header-main-menu {
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.main-menu {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.menu-item a {
+	display: block;
+	background-color: #293449;
+	color: white;
+	text-decoration: none;
 }
